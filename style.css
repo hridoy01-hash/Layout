@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main_wraper {
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(124, 118, 110);
+}
+
+.header_content_wraper {
+    height: 100px;
+    max-width: 100%;
+    background-color: rgb(130, 151, 144);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.brand_logo {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(175, 218, 203);
+    border-radius: 5px;
+    float: left;
+}
+
+.menubar {
+    height: 100%;
+    width: 400px;
+    background-color: rgb(175, 218, 203);
+    border-radius: 5px;
+    float: right;
+}
+
+
+/* body layout */
+
+.main_body_content_wraper{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(130, 151, 144);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.body_content_one {
+    width: 440px;
+    height: 195px;
+    background-color: aqua;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.body_content_one:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .body_content_one:last-child{
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+
+/* .body_content_two{
+    width: 48%;
+    height: 48%;
+    background-color: aqua;
+
+}
+.body_content_three{
+    width: 48%;
+    height: 48%;
+    background-color: aqua;
+
+}
+.body_content_four{
+    width: 48%;
+    height: 48%;
+    background-color: aqua;
+
+} */
+
+
+/* footer layout */
+
+.footer_wraper {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(209, 176, 132);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer_content {
+    height: 80px;
+    width: 174px;
+    background-color: rgb(165, 173, 157);
+    margin-right: 10px;
+    float: left;
+    border-radius: 5px;
+}
+
+.footer_content:last-child {
+    margin: 0px;
+}
